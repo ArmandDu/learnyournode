@@ -6,5 +6,5 @@ http.get(process.argv[2], function(res) {
 	.on('error', console.error);
 
 }).on('error', function(e) {
-    console.log(e);
+    console.error(e);
 });
